@@ -2,8 +2,8 @@
 A regex manipulation lib written in Haskell</br>
 To compile: ghc  -O2  aoba.hs RE.hs </br>
 Usage:</br>
-./aoba -i re1 re2 -- calculate intersection set</br>
-./aoba -c re1 re2 -- is re1 a subset of re2</br>
+./aoba -i re1 re2 -- intersection set</br>
+./aoba -c re1 re2 -- inclusion </br>
 ./aoba -e re1 re2 -- equality</br>
 
 For detailed theory, please check out:</br>
